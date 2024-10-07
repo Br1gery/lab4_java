@@ -30,7 +30,7 @@ public class day extends AppCompatActivity {
             return insets;
         });
         MyPushNotification myPushNotification = new MyPushNotification(this, getSystemService(NotificationManager.class));
-        myPushNotification.sendNotify("Первый пуш","проверка");
+        myPushNotification.sendNotify("День","Скоро конец рабочего дня");
     }
 
     public void toEvening(View view) {

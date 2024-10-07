@@ -40,7 +40,6 @@ public class night extends AppCompatActivity {
                         Intent intent = new Intent(night.this, MainActivity.class);
                         startActivity(intent);
                         dialogInterface.cancel();
-                        dialogInterface.cancel();
                     }
                 })
                 .setPositiveButton("Да", new DialogInterface.OnClickListener() {
